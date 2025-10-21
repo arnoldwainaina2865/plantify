@@ -1,0 +1,80 @@
+/* initial layout */
+.content{
+    display: flex;
+}
+
+/* product display */
+.product-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 3em;
+    gap: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* product card */
+.card-title{
+    text-transform: capitalize;
+}
+
+/* filter section */
+.filter{
+    width: 16em;
+    padding: 1em;
+    box-shadow: var(--list-shadow);
+    position: sticky;
+    background: var(--white);
+    border-radius: 0 0 var(--radius-l) 0;
+    border: 1px solid var(--primary-100);
+}
+
+.filter-and-clear{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.clear{
+    color: var(--primary);
+    cursor: pointer;
+}
+
+.price > .input-data{
+    display: block;
+    width: 100%;
+}
+
+.price-values{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-heading{
+    font-weight: var(--semi-bold);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.inline-input{
+    display: inline-block;
+}
+
+.filter > form{
+    margin: 0;
+    padding: 1em;
+    width: 100%;
+    box-shadow: none;
+}
+
+.badge > i{
+    color: var(--white);
+}
+
+.price-input{
+    padding: 0;
+}
+
+.card-img > img{
+    border-radius: var(--radius-s) 0 0 var(--radius-s);
+}

@@ -1,0 +1,107 @@
+/* cart */
+.cart-head{
+    color: var(--primary);
+    padding: 1em;
+    font-weight: var(--semi-bold);
+}
+
+/* cart layout */
+.cart{
+    width: 100vw;
+    padding: 0 10em 6em 10em;
+    column-gap:3em;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    height: auto;
+}
+
+.products{
+    flex-direction: column;
+    padding: 0 1em 1em 1em;
+    gap: 5rem;
+}
+
+.products > div{
+    margin: 1rem;
+}
+
+/* overriding horizontal card */
+.card-horizontal{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-content{
+    padding: var(--padding-s);
+}
+
+.card{
+    height: 18.75rem;
+}
+
+.card-subtitle{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: var(--bold);
+}
+
+ins{
+    text-decoration: none;
+}
+
+del{
+    font-size: 1.2rem;
+    opacity: 50%;
+}
+
+.card-option > .btn{
+    width: 100%;
+    margin: 2px;
+}
+
+.quantity-input{
+    display: flex;
+    gap: 10px;
+}
+
+.quantity-input > .input-data{
+    width: 20%;
+}
+
+.card-option{
+   margin: 1em;
+}
+
+.quantity-input .input-data{
+    font-size: 1rem;
+    padding: 0;
+}
+
+.bill{
+    padding: 1em;
+    height: fit-content;
+    box-shadow: var(--card-shadow);
+}
+
+.bill-heading{
+    font-weight: var(--semi-bold);
+    font-size: 1.1rem;
+}
+
+.price-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 0.5em;
+}
+
+.price-detail{
+    justify-self: start;
+}
+
+.price-value{
+    justify-self: end;
+}
+
+.bill-btn{
+    text-align: center;
+}

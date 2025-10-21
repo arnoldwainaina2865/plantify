@@ -1,0 +1,40 @@
+/* login section */
+
+.login-area{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    padding: 2em 3em 3em 3em;
+    box-shadow: var(--card-shadow);
+    margin: 2em;
+    width: 40vw;
+}
+
+.login-head{
+    font-weight: var(--bold);
+    padding: 1em;
+}
+
+.remember-check{
+    display: inline;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.forgot-password{
+    opacity: 75%;
+}
+
+.btn-login{
+    margin: 1em;
+}
+
+.terms{
+    display: inline;
+}

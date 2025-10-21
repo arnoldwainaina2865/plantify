@@ -1,0 +1,110 @@
+@import 'react-notifications-component/dist/theme.css';
+@import url("https://peaceui.netlify.app/peace.css");
+
+:root {
+    --primary: #469a57;
+    --primary-100: #BAE2B0;
+    --secondary: #7EB532;
+    --back-green: #c4dbbd;
+    --white: #fff;
+}
+
+body{
+    background: var(--white);
+}
+
+a {
+    color: black;
+}
+
+/* overriding btn component */
+.btn {
+    margin: 0;
+}
+
+.login-btn {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.btn-ghost {
+    color: var(--primary);
+}
+
+.btn-ghost:hover {
+    color: var(--white);
+    border: 2px solid var(--white);
+}
+
+/* overriding navbar */
+.nav-wrapper {
+    top: 0;
+    width: 100%;
+}
+
+.nav-list {
+    /* reduced column-gap from 3em to 1em */
+    column-gap: 1em;
+    margin-right: 0;
+}
+
+/* overriding input */
+.search {
+    margin: 0;
+    padding: 0;
+    height: 1rem;
+    display: block;
+    cursor: pointer;
+}
+
+.input-data {
+    border: 2px solid var(--background-grey);
+}
+
+.input-data:hover {
+    border: 2px solid var(--primary);
+}
+
+/* overriding badge */
+.badge {
+    margin: 2px;
+}
+
+.icon-badge>i {
+    font-size: 1.8em;
+}
+
+.product-page{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    width: 75%;
+}
+
+.product-page > .card-content{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.not-found-page{
+    height: 10rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.server-error-page{
+    height: 10rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}

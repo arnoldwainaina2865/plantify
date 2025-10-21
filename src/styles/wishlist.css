@@ -1,0 +1,34 @@
+h4{
+    color: var(--primary);
+    font-weight: var(--semi-bold);
+    padding: 1em;
+}
+
+.wishlist-head{
+    color: var(--primary);
+    padding: 1em;
+    font-weight: var(--semi-bold);
+}
+
+.wishlist{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 2em 2em 2em 1em;
+    gap: 5em;
+}
+
+.card{
+    background: var(--primary-100);
+}
+
+.card-option{
+    padding-top: auto;
+}
+
+.card-option > .btn{
+    width: 100%;
+}
+
+.card-head{
+    padding: 0;
+}

@@ -1,0 +1,61 @@
+/* hero section */
+.hero {
+    height: 70vh;
+    background-image: url("../assets/hero.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    margin: 3rem;
+    border-radius: var(--radius-m);
+    padding-top: 6em;
+}
+
+.hero-title {
+    color: var(--secondary);
+    padding-left: 1rem;
+}
+
+.hero-subtitle {
+    color: var(--white);
+    padding-left: 1rem;
+}
+
+/* category grid */
+.category-grid {
+    padding: 0 1em 1em 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2em;
+    margin: 4rem;
+}
+
+.card-img{
+    opacity: 90%;
+}
+
+.category-card >.card-head {        
+    background: var(--primary);
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 1em;
+    border-radius: var(--radius-m) var(--radius-m) 0 0;
+}
+
+.category-card .card-img > img{
+    border-radius:0 0 var(--radius-m) var(--radius-m) ;
+}
+
+.category-card{
+    height: auto;
+    border-radius: var(--radius-m);
+}
+
+.card{
+    transition: transform .2s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
