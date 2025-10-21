@@ -31,7 +31,7 @@ A modern, React-based e-commerce platform for browsing and purchasing beautiful 
 
 ## 🚀 Live Demo
 
-Check out the live application: **[Plantify Demo](https://plantify-paradise.netlify.app/)**
+Check out the live application: **[Plantify Demo](https://gardenshop.netlify.app/)**
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/810b0aec-ee6e-4c4c-acbc-6370bdab179e/deploy-status)](https://plantify-paradise.netlify.app/)
 
